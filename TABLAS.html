@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+
+<style>
+
+
+
+.cuadro1 {
+  position: absolute;
+  
+}
+
+.imagen {
+  display: block;
+  width:1000px ;
+  height:700px;
+}
+
+.abajo {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transition: .5s ease;
+ 
+}
+
+.cuadro1:hover .abajo {
+  opacity: 1;
+}
+
+.cuadro2 {
+  transform: rotateY(180deg);
+}
+</style>
+
+<h1>MONOGRAFIA DE LA CULTURA "ARI"</h1>
+<div class="cuadro1">
+  <img src="C:\Users\panco\Documents\JAVASCRIPT\IMG\vista1.png"  class="imagen"   >
+  <div class="abajo">
+    <div class="cuadro2"> </div>
+    <img src="C:\Users\panco\Documents\JAVASCRIPT\IMG\vista2.png" class="imagen" >
+  </div>
+</div>
+
+</body>
+</html>
